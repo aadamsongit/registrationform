@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form Assignment</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>First Name: * <input type="text" name="first_name" /></p>
+    <p>Last Name: * <input type="text" name="last_name" /></p>
+    <p>Email address: * <input type="email" id="email" /></p>
+    <p>Password: * <input type="password" name="password" /></p>
+    <p>Confirm Password: * <input type="password" name="confirmpassword" /></p>
+    <p>Birthday: <input type="date" name="dob" /></p>
+    <p>Gender Identity:</p>
+    <p><input type="radio" name="font" value="male" id="male">
+        <label for="male">Male<label> <input type="radio" name="font" value="female" id="female">
+            <label for="female">Female<label> <input type="radio" name="font" value="non-binary" id="non-binary">
+                <label for="non-binary">Non-binary<label><input type="radio" name="font" value="no-answer" id="no-answer">
+                    <label for="no-answer">I prefer not to answer</p>
+                        <p>A short description about myself:</p>
+                        <p><textarea name="comment" cols="60" rows="3"></textarea></p>
+                        <p>Favorite Language: <select name="language">
+                            <option>JavaScript</option>
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>Python</option>
+                        </select></p>
+                        <p> <input type="checkbox" name="updates" 
+                            id="updates" checked >
+                            <label for="updates">Yes, I would like to receive periodic email updates</label></p>
+                            <p><input type="submit" value="Create Account"></p>
+                            <p>* Indicates required field</p>
+  </body>
+</html>
